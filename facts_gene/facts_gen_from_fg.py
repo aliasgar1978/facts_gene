@@ -2,7 +2,7 @@
 from facts_finder import DeviceDB
 from facts_finder import device
 from capture_it.database import append_to_xl, write_to_xl
-from general import (
+from .general import (
 	merged_physical, merged_vrf, merged_var, remove_duplicates, split_to_multiple_tabs, generate_int_number,
 	generate_int_number_juniper
 	)
