@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="facts_gene",
-    version="0.0.0",
+    version="0.0.1",
     author="ALIASGAR - ALI",
     author_email="aholo2000@gmail.com",
     description="facts_gene for Networking Geeks",
@@ -19,6 +19,6 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.7',
-    install_requires=['pandas', 'xlrd', 'openpyxl', 'nettoolkit']
+    install_requires=['pandas', 'xlrd', 'openpyxl', 'nettoolkit', 'capture_it']
 )
 
